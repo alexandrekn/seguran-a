@@ -38,7 +38,7 @@ def index(busca: str = Query(default="")):
     </html>
     """
     return HTMLResponse(content=html_content)
-
+#teste
 
 # Rota 2: Vulnerável a SQL Injection
 
